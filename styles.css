@@ -280,3 +280,42 @@ features
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+/* 
+
+RECENT
+
+*/
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 
+
+EXPLORE
+
+*/
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+
+}
+
+.row__ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #7342d6;
+    font-size: 16px;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
